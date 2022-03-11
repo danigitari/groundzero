@@ -27,14 +27,7 @@ Vue.use(ClientTable);
 Vue.use(VueRouter)
 
 firebase.initializeApp({
-    apiKey: "AIzaSyBbfFDOjb8FjT4jPbAk-GnbmZRXDvCUV2s",
-    authDomain: "ics2302.firebaseapp.com",
-    databaseURL: "https://ics2302-default-rtdb.firebaseio.com",
-    projectId: "ics2302",
-    storageBucket: "ics2302.appspot.com",
-    messagingSenderId: "446670503433",
-    appId: "1:446670503433:web:f5fdacb1c4a999b34802d8",
-    measurementId: "G-DJHY8F6LP6"
+    //
 });
 export const db = firebase.firestore()
 const routes = [
